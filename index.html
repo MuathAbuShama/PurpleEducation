@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Purple Education</title>
+	<!-- Stylesheets -->
+	<link href="css/bootstrap.css" rel="stylesheet" />
+	<!-- select picker -->
+	<link href="css/bootstrap-select.css" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+	<link href="css/responsive.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&amp;display=swap"
+		rel="stylesheet" />
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+	<link rel="icon" href="images/favicon.png" type="image/x-icon" />
+	<!-- Responsive -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<!--[if lt IE 9
+			]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script
+		><![endif]-->
+	<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body class="hidden-bar-wrapper">
+	<div class="page-wrapper">
+		<div class="big-circle"></div>
+		<!-- Preloader -->
+		<div class="preloader"></div>
+		<!-- Main Header-->
+		<header class="main-header">
+			<!--Header-Upper-->
+			<div class="header-upper">
+				<div class="outer-container clearfix">
+					<div class="pull-left logo-box">
+						<div class="logo">
+							<a href="#"><img src="images/logo.png" alt="" title="" /></a>
+						</div>
+					</div>
+					<div class="nav-outer clearfix">
+						<!--Mobile Navigation Toggler-->
+						<div class="mobile-nav-toggler">
+							<span class="icon flaticon-menu"></span>
+						</div>
+						<!-- Main Menu -->
+						<nav class="main-menu navbar-expand-md">
+							<div class="navbar-header">
+								<!-- Toggle Button --><button class="navbar-toggler" type="button"
+									data-toggle="collapse" data-target="#navbarSupportedContent"
+									aria-controls="navbarSupportedContent" aria-expanded="false"
+									aria-label="Toggle navigation">
+									<span class="icon-bar"></span><span class="icon-bar"></span><span
+										class="icon-bar"></span>
+								</button>
+							</div>
+							<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+								<ul class="navigation clearfix">
+
+									<li class="current">
+										<a href="adult_home.html">الرئيسيه</a>
+									</li>
+									<li>
+										<a href="courses_1_and_2.html">الدورات والعروض</a>
+									</li>
+									<li>
+										<a href="news.html">الاخبار</a>
+									</li>
+									<li>
+										<a href="levels.html">الاعتمادات</a>
+									</li>
+									<li>
+										<a href="learn_online.html">التعلم عن بعد</a>
+									</li>
+									<li>
+										<a href="career.html">وظائف شاغره</a>
+									</li>
+									<li>
+										<a href="about_us.html">نبذه عنا</a>
+									</li>
+									<li>
+										<a href="contact_us.html">تواصل معنا</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+						<!-- Main Menu End-->
+						<div class="outer-box clearfix">
+
+							<ul class="notification-box">
+
+								<li class="notification">
+
+									<!-- notification Box -->
+									<div class="cart-box">
+										<div class="dropdown">
+											<button class="cart-box-btn dropdown-toggle" type="button"
+												id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
+												aria-expanded="false">
+												<img src="images/icons/bell.svg" />
+											</button>
+											<div class="dropdown-menu pull-right cart-panel"
+												aria-labelledby="dropdownMenu1">
+												<div class="cart-product">
+													<div class="inner">
+
+														<h3>
+															<a href="#">
+																لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+																العميل ليتصور طريقه وضع النصوص
+															</a>
+														</h3>
+														<h3>
+															<a href="#">
+																لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+																العميل ليتصور طريقه وضع النصوص
+															</a>
+														</h3>
+														<h3>
+															<a href="#">
+																لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+																العميل ليتصور طريقه وضع النصوص
+															</a>
+														</h3>
+
+
+													</div>
+												</div>
+
+
+											</div>
+										</div>
+									</div>
+									<!-- end notification Box -->
+								</li>
+								<li class="language">
+									<a href="#">
+										<img src="images/icons/globe.svg" />
+									</a>
+									<form method="GET" id="get_language">
+										<div class="form-group" style="position: unset;">
+
+											<select id="culture-picker" class="selectpicker" data-width="fit"
+												name="culture" onchange="this.parentElement.parentElement.submit();">
+												<option value="en-US" selected="selected">
+													EN
+												</option>
+												<option value="ar-SA">
+													AR
+												</option>
+
+											</select>
+										</div>
+									</form>
+
+
+
+
+								</li>
+								<li class="log-out">
+									<a href="#">
+										<img src="images/icons/enter.svg">
+									</a>
+								</li>
+
+
+							</ul>
+
+							<div class="user-courses">
+								<a href="#">
+									مرحبا <span>صابرين</span>
+								</a>
+
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--End Header Upper-->
+			<!-- Sticky Header -->
+			<div class="sticky-header">
+
+				<div class="auto-container clearfix">
+					<!--Logo-->
+					<div class="logo pull-left">
+						<a href="#" title=""><img src="images/logo.png" alt="" title="" /></a>
+					</div>
+					<!--Right Col-->
+					<div class="pull-right">
+						<!-- Main Menu -->
+						<nav class="main-menu">
+							<!--Keep This Empty / Menu will come through Javascript-->
+						</nav>
+						<!-- Main Menu End-->
+						<!-- Main Menu End-->
+						<div class="outer-box clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<!-- End Sticky Menu -->
+			<!-- Mobile Menu -->
+			<div class="mobile-menu">
+				<div class="menu-backdrop"></div>
+				<div class="close-btn">
+					<span class="icon flaticon-multiply"></span>
+				</div>
+				<nav class="menu-box">
+					<div class="nav-logo">
+						<a href="#"><img src="images/logo.png" alt="" title="" /></a>
+					</div>
+					<div class="menu-outer">
+						<!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+					</div>
+				</nav>
+			</div>
+			<!-- End Mobile Menu -->
+
+		</header>
+		<!-- End Main Header -->
+		<!-- Banner Section -->
+		<section class="banner-section">
+			<div class="auto-container">
+				<div class="row clearfix">
+					<!-- Image Column -->
+					<div class="col-lg-6 col-md-12 col-sm-12">
+						<div class="content-txt wow fadeInRight" data-wow-delay="0ms" data-wow-duration="3000ms">
+							<h3>أكاديميه <span>لنتكلم</span> لتعليم اللغات والمهارات</h3>
+							<p>
+								لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+								العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم
+								مطبوعه ... بروشور او فلاير على سبيل المثال
+							</p>
+
+							<a href="#" class="btn button-all">البدء الان
+								<i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+						</div>
+					</div>
+					<!-- Content Column -->
+					<div class="col-lg-6 col-md-12 col-sm-12">
+						<div class="content-form  ">
+							<form method="post" action="#">
+								<div class="form-group">
+									<label for="username"> أسم المستخدم</label>
+									<input type="text" name="username" required="" />
+									<span class="line-border"></span>
+								</div>
+								<div class="form-group">
+									<label for="password"> كلمة المرور</label>
+									<input type="password" name="password" required="" />
+									<span class="line-border"></span>
+								</div>
+								<div class="forget">
+									<a href="#"> تسجيل حساب جديد </a>
+
+									<a href="#"> هل نسيت كلمة السر ؟ </a>
+								</div>
+								<div class="btn-home">
+									<button class="btn button-all">تسجيل الدخول</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Banner Section -->
+
+		<!-- Accredited courses Section -->
+		<section class="accredited-courses">
+			<div class="big-circle"></div>
+
+			<div class="auto-container">
+				<div class="section-title">
+					<h4>الدورات المعتمده</h4>
+				</div>
+
+				<div class="courses-carousel owl-carousel owl-theme wow fadeInUp" data-wow-delay="0ms"
+					data-wow-duration="3000ms">
+					<!-- item  -->
+					<div class="courses-block">
+						<div class="img-courses">
+							<img src="images/icons/pie-chart.svg" />
+						</div>
+						<div class="content-txt">
+							<h4>تعليم مهارات الحاسوب</h4>
+							<p>
+								لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+								العميل
+							</p>
+							<a href="#" class="btn button-all">البدء الان
+								<i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+						</div>
+					</div>
+					<!-- end item -->
+					<!-- item -->
+					<div class="courses-block">
+						<div class="img-courses">
+							<img src="images/icons/calculations.svg" />
+						</div>
+						<div class="content-txt wow fadeInLeft">
+							<h4>تعليم المحاسبه</h4>
+							<p>
+								لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+								العميل
+							</p>
+							<a href="#" class="btn button-all">البدء الان
+								<i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+						</div>
+					</div>
+					<!-- end item -->
+					<!-- item -->
+					<div class="courses-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="img-courses">
+							<img src="images/icons/linguistics.svg" />
+						</div>
+						<div class="content-txt">
+							<h4>تعليم الانجليزيه</h4>
+							<p>
+								لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+								العميل
+							</p>
+
+							<a href="#" class="btn button-all">البدء الان
+								<i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+						</div>
+					</div>
+					<!-- end item -->
+				</div>
+			</div>
+		</section>
+
+		<!-- End Accredited courses Section -->
+
+		<!-- about home section -->
+		<section class="about-home-sec">
+			<div class="auto-container">
+				<div class="row clearfix">
+					<div class="col-lg-5 col-md-12 col-sm-12">
+						<div class="content-img wow fadeInRight" data-wow-delay="0ms" data-wow-duration="3000ms">
+							<img src="images/about.svg" alt="about" />
+						</div>
+					</div>
+
+					<div class="col-lg-7 col-md-12 col-sm-12">
+						<div class="content-txt wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="3000ms">
+							<h6>نبذه عنا</h6>
+							<h3>
+								أكاديميه <span>لنتكلم</span> لتعليم اللغات والمهارات في سطور
+							</h3>
+							<p>
+								لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+								العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم
+								مطبوعه ... بروشور او فلاير على سبيل المثال
+							</p>
+
+							<p>
+								لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+								العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم
+								مطبوعه ... بروشور او فلاير على سبيل المثال
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- end about home section -->
+
+		<!-- Most requested courses -->
+		<section class="most-requested-sec">
+			<div class="auto-container">
+				<div class="section-title">
+					<h4>الدورات والدبلومات الأكثر طلبا"</h4>
+				</div>
+
+				<div class="most-requested-carousel owl-carousel owl-theme wow fadeInUp " data-wow-delay="0ms"
+					data-wow-duration="3000ms">
+					<!-- item  -->
+					<div class="requested-courses-block">
+						<div class="img-courses">
+							<img src="images/req1.jpg" />
+						</div>
+						<div class="content-txt">
+							<h4>تعليم حزمة الاوفيس</h4>
+							<p>
+								لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+								العميل
+							</p>
+							<a href="#" class="btn button-all">اشترك الان
+								<i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+						</div>
+					</div>
+					<!-- end item -->
+
+					<!-- item  -->
+					<div class="requested-courses-block">
+						<div class="img-courses">
+							<img src="images/req2.jpg" />
+						</div>
+						<div class="content-txt">
+							<h4>التدريب على اختبار التوفيل</h4>
+							<p>
+								لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+								العميل
+							</p>
+							<a href="#" class="btn button-all">اشترك الان
+								<i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+						</div>
+					</div>
+					<!-- end item -->
+
+					<!-- item  -->
+					<div class="requested-courses-block">
+						<div class="img-courses">
+							<img src="images/req3.png" />
+						</div>
+						<div class="content-txt">
+							<h4>دورة تعلم ICDL</h4>
+							<p>
+								لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+								العميل
+							</p>
+							<a href="#" class="btn button-all">اشترك الان
+								<i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+						</div>
+					</div>
+					<!-- end item -->
+				</div>
+			</div>
+		</section>
+
+		<!-- End Most requested courses -->
+
+		<!-- Testimonial Section -->
+		<section class="testimonial-section">
+			<div class="auto-container">
+				<div class="section-title">
+					<h4>اراء العملاء والصحافه</h4>
+				</div>
+
+				<div class="testimonial-carousel owl-carousel owl-theme wow fadeInUp" data-wow-delay="0ms"
+					data-wow-duration="3000ms">
+					<!-- Testimonial Block -->
+					<div class="testimonial-block">
+						<div class="inner-box">
+							<div class="author-info">
+								<div class="info-inner">
+									<div class="author-image">
+										<img src="images/resource/author-1.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+							<div class="text">
+								لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+								العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم
+								مطبوعه بروشور او فلاير على سبيل المثال
+							</div>
+
+							<div class="tist-person">
+								<h6>معتصم محمد محمود</h6>
+								<div class="designation">متعلم انجليزيه</div>
+							</div>
+						</div>
+					</div>
+					<!-- Testimonial Block -->
+
+					<!-- Testimonial Block -->
+					<div class="testimonial-block">
+						<div class="inner-box">
+							<div class="author-info">
+								<div class="info-inner">
+									<div class="author-image">
+										<img src="images/resource/author-1.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+							<div class="text">
+								لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+								العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم
+								مطبوعه بروشور او فلاير على سبيل المثال
+							</div>
+
+							<div class="tist-person">
+								<h6>معتصم محمد محمود</h6>
+								<div class="designation">متعلم انجليزيه</div>
+							</div>
+						</div>
+					</div>
+					<!-- Testimonial Block -->
+
+					<!-- Testimonial Block -->
+					<div class="testimonial-block">
+						<div class="inner-box">
+							<div class="author-info">
+								<div class="info-inner">
+									<div class="author-image">
+										<img src="images/resource/author-1.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+							<div class="text">
+								لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+								العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم
+								مطبوعه بروشور او فلاير على سبيل المثال
+							</div>
+
+							<div class="tist-person">
+								<h6>معتصم محمد محمود</h6>
+								<div class="designation">متعلم انجليزيه</div>
+							</div>
+						</div>
+					</div>
+					<!-- Testimonial Block -->
+
+					<!-- Testimonial Block -->
+					<div class="testimonial-block">
+						<div class="inner-box">
+							<div class="author-info">
+								<div class="info-inner">
+									<div class="author-image">
+										<img src="images/resource/author-1.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+							<div class="text">
+								لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+								العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم
+								مطبوعه بروشور او فلاير على سبيل المثال
+							</div>
+
+							<div class="tist-person">
+								<h6>معتصم محمد محمود</h6>
+								<div class="designation">متعلم انجليزيه</div>
+							</div>
+						</div>
+					</div>
+					<!-- Testimonial Block -->
+					<!-- Testimonial Block -->
+					<div class="testimonial-block">
+						<div class="inner-box">
+							<div class="author-info">
+								<div class="info-inner">
+									<div class="author-image">
+										<img src="images/resource/author-1.jpg" alt="" />
+									</div>
+								</div>
+							</div>
+							<div class="text">
+								لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+								العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم
+								مطبوعه بروشور او فلاير على سبيل المثال
+							</div>
+
+							<div class="tist-person">
+								<h6>معتصم محمد محمود</h6>
+								<div class="designation">متعلم انجليزيه</div>
+							</div>
+						</div>
+					</div>
+					<!-- Testimonial Block -->
+				</div>
+			</div>
+		</section>
+		<!-- End Testimonial Section -->
+
+		<!-- Clients Section -->
+		<section class="clients-section">
+			<div class="big-circle"></div>
+
+			<div class="auto-container">
+				<!-- Sec Title -->
+				<div class="row clearfix">
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<div class="client-title">
+							<h4>اعتمادات الاكاديمية</h4>
+						</div>
+					</div>
+					<div class="sponsors-outer col-lg-9 col-md-9 col-sm-12">
+						<!--Sponsors Carousel-->
+						<ul class="sponsors-carousel owl-carousel owl-theme wow fadeInUp " data-wow-delay="0ms"
+							data-wow-duration="3000ms">
+							<li class="slide-item">
+								<figure class="image-box">
+									<a href="#"><img src="images/c1.png" alt="" /></a>
+								</figure>
+							</li>
+							<li class="slide-item">
+								<figure class="image-box">
+									<a href="#"><img src="images/c2.png" alt="" /></a>
+								</figure>
+							</li>
+							<li class="slide-item">
+								<figure class="image-box">
+									<a href="#"><img src="images/c3.jpg" alt="" /></a>
+								</figure>
+							</li>
+							<li class="slide-item">
+								<figure class="image-box">
+									<a href="#"><img src="images/c1.png" alt="" /></a>
+								</figure>
+							</li>
+							<li class="slide-item">
+								<figure class="image-box">
+									<a href="#"><img src="images/c2.png" alt="" /></a>
+								</figure>
+							</li>
+							<li class="slide-item">
+								<figure class="image-box">
+									<a href="#"><img src="images/c3.jpg" alt="" /></a>
+								</figure>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Clients Section -->
+		<!-- Main Footer -->
+		<footer class="main-footer">
+			<div class="auto-container">
+				<!--Widgets Section-->
+				<div class="widgets-section">
+					<div class="row clearfix">
+						<!-- Footer Column -->
+						<div class="footer-column col-lg-4 col-md-12 col-sm-12">
+							<div class="footer-widget logo-widget">
+								<div class="logo">
+									<a href="index.html"><img src="images/logo.png" alt="" /></a>
+								</div>
+
+								<div class="text-footer">
+									<p>
+										لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+										العميل
+									</p>
+								</div>
+
+								<!-- Social Box -->
+								<ul class="social-box">
+									<li>
+										<a target="_blank" href="http://twitter.com/" class="fa fa-twitter"></a>
+									</li>
+
+									<li>
+										<a target="_blank" href="http://snapchat.com/" class="fa fa-snapchat-ghost"></a>
+									</li>
+
+									<li>
+										<a target="_blank" href="http://facebook.com/" class="fa fa-facebook-f"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- Footer Column -->
+						<div class="footer-column col-lg-8 col-md-12 col-sm-12">
+							<div class="row clearfix">
+								<!-- Column -->
+								<div class="column col-lg-3 col-md-4 col-sm-12">
+									<ul class="list">
+										<li>
+											<a href="adult_home.html">الرئيسيه</a>
+										</li>
+										<li>
+											<a href="about_us.html">نبذه عنا</a>
+										</li>
+										<li>
+											<a href="contact_us.html">تواصل معنا</a>
+										</li>
+										<li>
+											<a href="certificate.html">الاعتمادات</a>
+										</li>
+										<li>
+											<a href="courses_1_and_2.html">الدورات المعتمده</a>
+										</li>
+									</ul>
+								</div>
+								<!-- Column -->
+								<div class="column col-lg-4 col-md-4 col-sm-12">
+									<ul class="list">
+										<li>
+											<a href="#">أهم الدورات والكورسات</a>
+										</li>
+										<li>
+											<a href="privacy&terms.html">سياسة الخصوصية</a>
+										</li>
+										<li>
+											<a href="#">شروط الاستخدام</a>
+										</li>
+										<li>
+											<a href="faqs.html">الأسئله المتكرره</a>
+										</li>
+										<li>
+											<a href="news.html">الأخبار</a>
+										</li>
+									</ul>
+								</div>
+								<!-- Column -->
+								<div class="column col-lg-5 col-md-4 col-sm-12">
+									<!-- Subscribe Form -->
+									<div class="subscribe-form">
+										<h6>اشترك معنا الان</h6>
+										<form method="post" action="#">
+											<div class="form-group">
+												<input type="email" name="email" value=""
+													placeholder="البريد الالكتروني" required="" />
+												<button type="submit" class="submit-btn">
+													اشترك
+												</button>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Footer Bottom -->
+			<div class="footer-bottom">
+				<div class="row clearfix">
+					<!-- Copyright Column -->
+					<div class="copyright-column col-lg-12 col-md-12 col-sm-12">
+						<div class="copyright">
+							جميع الحقوق محفوظة لأكاديميه <span> لنتكلم </span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!--End pagewrapper-->
+
+	<!-- The Modal popup-privacy-policy -->
+
+	<div class="modal fade popup-privacy-policy" id="myPolicy" data-backdrop="static" data-keyboard="false">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<!-- Modal body -->
+				<div class="modal-body">
+					<div class="title-modal">
+						<h4>شروط الاستخدام وسياسه الخصوصيه</h4>
+					</div>
+					<div class="content-list">
+						<ul>
+							<li>
+								لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+								العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم
+								مطبوعه ... بروشور او فلاير على سبيل المثال
+							</li>
+
+							<li>
+								لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+								العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم
+								مطبوعه ... بروشور او فلاير على سبيل المثال
+							</li>
+							<li>
+								لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+								العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم
+								مطبوعه ... بروشور او فلاير على سبيل المثال
+							</li>
+							<li>
+								لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على
+								العميل ليتصور طريقه وضع النصوص بالتصاميم سواء كانت تصاميم
+								مطبوعه ... بروشور او فلاير على سبيل المثال
+							</li>
+						</ul>
+					</div>
+					<div class="button-modal">
+						<a class="btn button-all" id="accept">
+							اوافق على شروط الاحكام وسياسه الخصوصيه</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!--Scroll to top-->
+	<div class="scroll-to-top scroll-to-target" data-target="html">
+		<span class="fa fa-arrow-up"></span>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="js/jquery.fancybox.js"></script>
+	<script src="js/appear.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script src="js/tilt.jquery.min.js"></script>
+	<script src="js/jquery.paroller.min.js"></script>
+	<script src="js/owl.js"></script>
+	<script src="js/wow.js"></script>
+	<script src="js/nav-tool.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/bootstrap-select.js"></script>
+	<!-- filter tab -->
+	<script src='https://isotope.metafizzy.co/isotope.pkgd.js'></script>
+	<!-- filter tab -->
+	<script src="js/script.js"></script>
+	<script>
+		$(function () {
+			$('#culture-picker').selectpicker();
+		});
+	</script>
+
+	<script src="js/js.cookie.js"></script>
+	<script type="text/javascript">
+		// <!-- cache browser 
+		if (!Cookies.get('popup')) {
+			setTimeout(function () {
+				$('#myPolicy').modal();
+			}, 600);
+		}
+		$('#myPolicy').on('shown.bs.modal', function () {
+			// bootstrap modal callback function
+			// set cookie
+			Cookies.set('popup', 'valid', { expires: 3, path: "/" });
+		})
+		// cache browser 
+		// press accept hide modal
+		$("#accept").on("click", function () {
+			$("#myPolicy").modal("hide");
+		});
+	</script>
+	<!-- cache browser -->
+</body>
+
+</html>
